@@ -46,7 +46,7 @@ class NewsListFragment : Fragment(),
             binding?.progressBar?.visibility = if (it) View.VISIBLE else View.GONE
         })
         viewModel.failureObserver.observe(viewLifecycleOwner, EventObserver {
-            Toast.makeText(context, it, Toast.LENGTH_SHORT).show()
+            //            Toast.makeText(context, it, Toast.LENGTH_SHORT).show()
         })
 
         //getting data

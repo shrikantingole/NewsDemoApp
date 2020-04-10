@@ -1,0 +1,4 @@
+rootProject.name='Demo App'
+include ':app'
+include ':network'
+include ':domain'
